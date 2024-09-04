@@ -1,3 +1,8 @@
+font-face {
+    src: url(Karla.ttf);
+    font-family: Karla;
+}
+
 body {
     margin: 0;
     height: 100vh;
@@ -5,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
+    font-family: Karla, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #password-generator {
